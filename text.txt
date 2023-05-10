@@ -1,0 +1,1 @@
+Hello, world!New appended text from callback function
