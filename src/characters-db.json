@@ -1,0 +1,321 @@
+[
+  {
+    "id": 1,
+    "firstName": "Homer",
+    "lastName": "Simpson",
+    "gender": "Male",
+    "age": 40,
+    "occupation": "Nuclear safety inspector",
+    "username": "homer-d'oh",
+    "email": "homer.simpson@duffmail.com",
+    "address": "742 Evergreen Terrace, Springfield, USA",
+    "phone": "555-6832",
+    "interests": ["eating donuts", "drinking Duff Beer", "watching TV"]
+  },
+  {
+    "id": 2,
+    "firstName": "Rick",
+    "lastName": "Sanchez",
+    "gender": "Male",
+    "age": 70,
+    "occupation": "Inventor",
+    "username": "ricksanchez",
+    "email": "rick@dimension-c137.com",
+    "address": "The Smith Residence, Dimension C-137",
+    "phone": "555-4321",
+    "interests": [
+      "exploring alternate dimensions",
+      "drinking intergalactic booze",
+      "building high-tech gadgets"
+    ]
+  },
+  {
+    "id": 3,
+    "firstName": "SpongeBob",
+    "lastName": "SquarePants",
+    "gender": "Male",
+    "age": 30,
+    "occupation": "Fry cook at the Krusty Krab",
+    "username": "spongy",
+    "email": "spongebob@bikinibottom.net",
+    "address": "124 Conch Street, Bikini Bottom",
+    "phone": "555-5955",
+    "interests": [
+      "jellyfishing with Patrick",
+      "cooking Krabby Patties",
+      "karate with Sandy"
+    ]
+  },
+  {
+    "id": 4,
+    "firstName": "Bob",
+    "lastName": "Belcher",
+    "gender": "Male",
+    "age": 43,
+    "occupation": "Owner and operator of Bob's Burgers",
+    "username": "burgerbob",
+    "email": "bob.belcher@bobsburgers.com",
+    "address": "123 Ocean Avenue, Ocean City, NJ",
+    "phone": "555-1234",
+    "interests": [
+      "cooking burgers",
+      "spending time with family",
+      "fixing his restaurant's quirky equipment"
+    ]
+  },
+  {
+    "id": 5,
+    "firstName": "Mabel",
+    "lastName": "Pines",
+    "gender": "Female",
+    "age": 13,
+    "occupation": "Student and mystery solver",
+    "username": "smileswithbraces",
+    "email": "mabel.pines@gravityfalls.com",
+    "address": "The Mystery Shack, Gravity Falls, Oregon",
+    "phone": "555-2468",
+    "interests": [
+      "knitting quirky sweaters",
+      "solving mysteries with Dipper",
+      "finding her true love"
+    ]
+  },
+  {
+    "id": 6,
+    "firstName": "Jake",
+    "lastName": "the Dog",
+    "gender": "Male",
+    "age": 28,
+    "occupation": "Adventure buddy and shape-shifter",
+    "username": "jakeadventuretime",
+    "email": "jake.adventuretime@ooo.com",
+    "address": "Tree Fort, Land of Ooo",
+    "phone": "555-9999",
+    "interests": [
+      "stretching his body",
+      "playing video games with Finn",
+      "going on adventures"
+    ]
+  },
+  {
+    "id": 7,
+    "firstName": "Daria",
+    "lastName": "Morgendorffer",
+    "gender": "Female",
+    "age": 18,
+    "occupation": "Professional cynic",
+    "username": "dariamtv",
+    "email": "daria.morgendorffer@lawndalehigh.edu",
+    "address": "Lawndale, USA",
+    "phone": "555-4321",
+    "interests": [
+      "sarcasm",
+      "making deadpan observations",
+      "dismantling the high school hierarchy"
+    ]
+  },
+  {
+    "id": 8,
+    "firstName": "Norville",
+    "lastName": "Rogers",
+    "gender": "Male",
+    "age": 17,
+    "occupation": "Amateur detective",
+    "username": "shaggy",
+    "email": "shaggy@scoobygang.com",
+    "address": "Coolsville, USA",
+    "phone": "555-5555",
+    "interests": [
+      "eating Scooby Snacks",
+      "solving mysteries with Scooby and the gang",
+      "playing the guitar",
+      "surfing",
+      "relaxing and taking it easy"
+    ]
+  },
+  {
+    "id": 9,
+    "firstName": "Leela",
+    "lastName": "Turanga",
+    "gender": "Female",
+    "age": 29,
+    "occupation": "Captain of the Planet Express ship",
+    "username": "captain_leela",
+    "email": "leela.turanga@planetexpress.com",
+    "address": "New New York, USA",
+    "phone": "555-7890",
+    "interests": [
+      "flying the Planet Express ship",
+      "karate",
+      "solving problems for the Planet Express crew",
+      "spending time with Fry",
+      "searching for her true origins"
+    ]
+  },
+  {
+    "id": 10,
+    "firstName": "Michelangelo",
+    "lastName": "Hamato",
+    "gender": "Male",
+    "age": 15,
+    "occupation": "Ninja Turtle",
+    "username": "cowabunga_mikey",
+    "email": "mikey@tmnt.com",
+    "address": "New York City, USA",
+    "phone": "555-1237",
+    "interests": ["eating pizza", "playing video games", "cracking jokes"]
+  },
+  {
+    "id": 11,
+    "firstName": "Aang",
+    "lastName": "",
+    "gender": "Male",
+    "age": 112,
+    "occupation": "Avatar",
+    "username": "avatar_aang",
+    "email": "aang@airnomads.com",
+    "address": "Air Temple Island, Eastern Air Temple",
+    "phone": "555-2468",
+    "interests": [
+      "bending all four elements",
+      "playing with Momo the lemur",
+      "protecting the world from Fire Nation"
+    ]
+  },
+  {
+    "id": 12,
+    "firstName": "Hilda",
+    "lastName": "Foulke",
+    "gender": "Female",
+    "age": 12,
+    "occupation": "Adventurer",
+    "username": "hilda_the_adventurer",
+    "email": "hilda@trolberg.com",
+    "address": "Trolberg, the hidden valley",
+    "phone": "555-5878",
+    "interests": [
+      "exploring the wilderness with Twig",
+      "making new friends",
+      "solving mysteries"
+    ]
+  },
+  {
+    "id": 13,
+    "firstName": "Courage",
+    "lastName": "the Cowardly Dog",
+    "gender": "Male",
+    "age": 5,
+    "occupation": "Watchdog",
+    "username": "courageous_courage",
+    "email": "courage@nowhere.com",
+    "address": "The middle of Nowhere, Kansas",
+    "phone": "555-1264",
+    "interests": [
+      "protecting his owners",
+      "confronting his fears",
+      "solving supernatural mysteries"
+    ]
+  },
+  {
+    "id": 15,
+    "firstName": "Lilo",
+    "lastName": "Pelekai",
+    "gender": "Female",
+    "age": 6,
+    "occupation": "Student",
+    "username": "lilostitch626",
+    "email": "lilo@ohana.net",
+    "address": "Hawaii",
+    "phone": "555-5678",
+    "interests": [
+      "playing with Stitch",
+      "feeding Pudge the fish",
+      "collecting Elvis Presley memorabilia"
+    ]
+  },
+  {
+    "id": 16,
+    "firstName": "James",
+    "lastName": "Sullivan",
+    "gender": "Male",
+    "age": 29,
+    "occupation": "Scarer",
+    "username": "sulley_mcscareface",
+    "email": "sully@monstersinc.com",
+    "address": "Monstropolis",
+    "phone": "555-1924",
+    "interests": [
+      "scaring kids",
+      "hanging out with Mike and Boo",
+      "listening to classic rock"
+    ]
+  },
+  {
+    "id": 17,
+    "firstName": "Mordecai",
+    "lastName": "Williams",
+    "gender": "Male",
+    "age": 23,
+    "occupation": "Groundskeeper",
+    "username": "mordo_27",
+    "email": "mordecai.williams@cartoonmail.com",
+    "address": "123 Park Avenue, Regular City",
+    "phone": "555-8234",
+    "interests": [
+      "playing video games at the park",
+      "jamming out with my bro Rigby",
+      "devouring large pizzas"
+    ]
+  },
+  {
+    "id": 18,
+    "firstName": "Sterling",
+    "lastName": "Archer",
+    "gender": "Male",
+    "age": 36,
+    "occupation": "Spy",
+    "username": "codename_duchess",
+    "email": "sterling.archer@isishq.com",
+    "address": "123 Spy Lane, New York City",
+    "phone": "555-0070",
+    "interests": [
+      "drinking at the office",
+      "spying on his coworkers",
+      "making inappropriate jokes"
+    ]
+  },
+  {
+    "id": 19,
+    "firstName": "Rocco",
+    "lastName": "Wallaby",
+    "gender": "Male",
+    "age": 20,
+    "occupation": "Cashier",
+    "username": "spunky_rocco",
+    "email": "rocco.wallaby@o-town.com",
+    "address": "123 Rocko's Modern Life, O-Town",
+    "phone": "555-3234",
+    "interests": [
+      "working as a phone operator",
+      "eating at Chokey Chicken",
+      "going on misadventures with Heffer"
+    ]
+  },
+  {
+    "id": 20,
+    "firstName": "Peter",
+    "lastName": "Parker",
+    "gender": "Male",
+    "age": 17,
+    "occupation": "Photographer",
+    "username": "spideyman",
+    "email": "peter.parker@dailybugle.com",
+    "address": "20 Ingram Street, New York, NY",
+    "phone": "555-7655",
+    "interests": [
+      "fighting crime",
+      "web-slinging through the city",
+      "cracking jokes while battling supervillains"
+    ]
+  }
+]
