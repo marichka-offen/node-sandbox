@@ -25,16 +25,7 @@ app.get('/api/users/:id', (req, res) => {
 app.post('/api/users', (req, res) => {
   const user = {
     id: users.length + 1,
-    firstName: req.body.firstName,
-    lastName: req.body.lastName,
-    gender: req.body.gender,
-    age: req.body.age,
-    occupation: req.body.occupation,
-    username: req.body.username,
-    email: req.body.email,
-    address: req.body.address,
-    phone: req.body.phone,
-    interests: req.body.interests,
+    ...req.body,
   }
 
   const bodyValidator = validator(user)
