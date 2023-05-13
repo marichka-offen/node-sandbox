@@ -1,6 +1,6 @@
 const users = require('./characters-db.json')
 const express = require('express')
-const validator = require('./validationModule')
+const { postValidator, putValidator } = require('./validationModule')
 
 const app = express()
 
@@ -28,14 +28,35 @@ app.post('/api/users', (req, res) => {
     ...req.body,
   }
 
-  const bodyValidator = validator(user)
-
-  if (bodyValidator.error) {
-    res.status(400).send(bodyValidator.error.details[0].message)
+  const validator = postValidator(user)
+  if (validator.error) {
+    res.status(400).send(validator.error.details[0].message)
   }
 
   users.push(user)
   res.send(user)
+})
+
+app.put('/api/users/:id', (req, res) => {
+  const user = users.find((user) => user.id === parseInt(req.params.id))
+  if (!user) {
+    res.status(404).send('User not found')
+  }
+
+  const validator = putValidator(req.body)
+  if (validator.error) {
+    res.status(400).send(validator.error.details[0].message)
+  }
+
+  const updatedUser = {
+    ...user,
+    ...req.body,
+  }
+
+  const index = users.indexOf(user)
+  users[index] = updatedUser
+
+  res.send(updatedUser)
 })
 
 // Port configs
